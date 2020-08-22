@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+	<!-- Meta Tags -->
+	<meta charset='UTF-8'>
+	<meta ="viewport" content="width=device-width, initial-scale=1.0">
+	<meta ="application-" content="Japanese Keyboard Practice">
+	<meta ="author" content="Me :)">
+	<meta ="description" content="Learn how to type with the Japanese IME Keyboard.">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Meta Tags HTML End -->
+
+	<!-- Open Graph Meta Tags -->
+	<meta ="og:title" content="Japanese Keyboard Practice">
+	<meta ="og:site_" content="index.html">
+	<meta ="og:description" content="Learn how to type with the Japanese IME Keyboard.">
+	<!-- Open Graph Meta Tags End -->
+
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="main.css">
+	<!-- Main Stylesheet End -->
+
+	<!-- Font Awesome Stylesheet -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<!-- Font Awesome Styslesheet End -->
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="images/logo-circle.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/logo-circle.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/logo-circle.png" sizes="96x96">
+    <!-- Favicons End -->
+
+    <!-- Apple Touch Icons (Add to Home Screen) -->
+    <link rel="apple-touch-icon" href="images/logo-square.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo-square.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/logo-square.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/logo-square.png">
+    <!-- Apple Touch Icons (Add to Home Screen) End -->
+
+	<!-- Google Fonts Cascading Style Sheet -->
+	    <link href="https://fonts.googleapis.com/css?family=Lilita+One|Margarine|Oswald|Anton|Baloo+Chettan|Quicksand|Lobster|Indie+Flower|Noto+Sans+SC|Sniglet|Coiny|Fredoka+One|Concert+One|Cutive+Mono|Nanum+Gothic|Consolas" rel="stylesheet">
+	<!-- Google Fonts Cascading Style Sheet End -->
+
+	<!-- Tab Title -->
+	<title>Japanese Keyboard Practice</title>
+	<!-- Tab Title End -->
+    </head>
+    <body>
+	<!-- JavaScript -->
+	<script src="script.js"></script>
+	<!-- JavaScript End -->
+	
+	<!-- Header -->
+	<div id="header" class="header">
+	    <h1>JPK Practice<h1>
+	    <img src='images/japanese-keyboard.png' alt="Japanese Keyboard Image" align="center">
+	</div>
+	<!-- Header End -->
+
+	<!-- Main Part -->
+	<div id="main-part">
+	    <h2 id="main-part-title">Start Practicing!</h2>
+
+	    <form onsubmit="return resCompute('sOneR', 'form1');" id="form1" class="form">
+		<section>
+		    <span class="mini-title">God Row</span><br>
+		    <div class="thingy">
+			<label for="f1" class="label">1) へええ&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f1" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>	
+		    <div class="thingy">
+			<label for="f2" class="label">2) おゆう&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f2" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f3" class="label">3) あうよ&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f3" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		</section>
+		<br>
+		<section>
+		    <div class="thingy">
+			<label for="f4" class="label">4) ほうほう&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f4" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f5" class="label">5) やゆよ&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f5" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f6" class="label">6) よう&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f6" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		</section>
+		<br>
+		<div class="button-holder">
+		    <input id="s1" class="submit" type="submit" align="center" value="Submit">
+			<span id="sOneR" class="results"></span>
+		</div>
+	    </form>
+
+	    <br><br><br><br>
+
+	    <form onsubmit="return resCompute('sTwoR', 'form2');" id="form2" class="form">
+		<section>
+		    <span class="mini-title">Top Row</span><br>
+		    <div class="thingy">
+			<label for="f7" class="label">7) かたいです&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f7" class="input" type="text" ="f7" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f8" class="label">8) やすいんだ&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f8" class="input" type="text" ="f8" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f9" class="label">9) いいながら&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f9" class="input" type="text" ="f9" placeholder="Enter in hiragana">
+		    </div>
+		</section>
+		<br>
+		<section>
+		    <div class="thingy">
+			<label for="f10" class="label">10) かんたんわよ&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f10" class="input" type="text" ="f10" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f11" class="label">11) ろせんですか&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f11" class="input" type="text" ="f11" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f12" class="label">12) にわだよ&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f12" class="input" type="text" ="f12" placeholder="Enter in hiragana">
+		    </div>
+		</section>
+		<br>
+		<div class="button-holder">
+		    <input id="s2" class="submit" type="submit" align="center" value="Submit"/>
+			<span id="sTwoR" class="results"></span>
+		</div>
+	    </form>
+
+	    <br><br><br><br>
+
+	    <form onsubmit="return resCompute('sThreeR', 'form3');" id="form3" class="form">
+		<section>
+		    <span class="mini-title">Middle Row</span><br>
+		    <div class="thingy">
+			<label for="f13" class="label">13) なかまだよ。&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f13" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f14" class="label">14) りかがすき&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f14" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f15" class="label">15) はなれて&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f15" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		</section>
+		<br>
+		<section class="section">
+		    <div class="thingy">
+			<label for="f16" class="label">16) はしれ&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f16" class="input" type="text"placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f17" class="label">17) あかないで&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f17" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f18" class="label">18) いけませんよ&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f18" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		</section>
+		<br>
+		<section class="section">
+		    <div class="thingy">
+			<label for="f19" class="label">19) なんだろう&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f19" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f20" class="label">20) けいと&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f20" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f21" class="label">21) くまのはながいい&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f21" class="input" type="text" placeholder="Enter in hiragana">		
+		    </div>
+		</section>
+		<br>
+		<section>
+		    <div class="thingy">
+			<label for="f22" class="label">22) うえはらえき&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f22" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f23" class="label">23) とうきょう&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f23" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f24" class="label">24) よよぎ&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f24" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		</section>
+		<br>
+		<div class="button-holder">
+		    <input id="s3" class="submit" type="submit" align="center" value="Submit"/>
+			<span id="sThreeR" class="results"></span>
+		</div>
+	    </form>
+	    
+	    <br><br><br><br>
+	    
+	    <form onsubmit="return resCompute('sFourR', 'form4');" id="form4" class="form">
+		<section>
+		    <span class="mini-title">Bottom Row</span><br>
+		    <div class="thingy">
+			<label for="f25" class="label">25) ひつよう&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f25" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f26" class="label">26) さっそく&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f26" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f27" class="label">27) ひっこしをする&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f27" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		</section>
+		<br>
+		<section>
+		    <div class="thingy">
+			<label for="f28" class="label">28) こどものめ&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f28" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f29" class="label">29) ねること&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f29" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		    <div class="thingy">
+			<label for="f30" class="label">30) かこむ&nbsp;:&nbsp;&nbsp;</label>
+			<input id="f30" class="input" type="text" placeholder="Enter in hiragana">
+		    </div>
+		</section>
+		<br>
+		<div class="button-holder">
+		    <input id="s4" class="submit" type="submit" align="center" value="Submit"/>
+			<span id="sFourR" class="results">
+		</div>
+	    </form>
+	</div>
+	<!-- Main Part End -->
+    </body>
+</html>
+

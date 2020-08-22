@@ -1,0 +1,122 @@
+/* Basic CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #2c3fff;
+    font-family: 'Consolas';
+}
+
+html, body {
+    background-color: #1b1d1e; 
+    margin: 5px 50px; 
+}
+
+#header {
+    margin: auto;
+    padding: 7px 100px;
+}
+
+#header h1 {
+   margin:auto;
+   padding: 10px;
+   text-align: center;
+   font-family: 'Consolas';
+   font-size: 32pt;
+   color: #e60813;
+}
+
+#header img {
+    width: 900px;
+    height: 300px;
+}
+
+/* Style the Form */
+
+#main-part {
+    margin: auto;
+    padding-bottom: 25px;
+    width: 1155px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+#main-part #main-part-title {
+   text-align:center;
+   margin: 20px;
+   padding: 20px;
+   font-family: 'Fredoka One';
+   font-size: 24pt;
+   font-weight: normal;
+   color: #E60813
+}
+
+#main-part .form .mini-title {
+	display: inline-block;
+	margin-bottom: 10px;
+    text-align: center;
+    font-size: 18pt;
+	font-weight: bold;
+    font-family:"Sniglet";
+    color: ;
+}
+
+#main-part .form section {
+    margin: auto;
+    text-align: center;
+}
+
+#main-part .form .thingy {
+    display: inline;
+    position: relative;
+    text-align:center;
+    margin: auto;
+    padding: 5px;
+    width: 600px;
+    height: 40px;
+}
+
+#main-part .form .label {
+    position: relative;
+    font-family: 'Noto Sans SC';
+    font-weight: bold;
+}
+
+#main-part .form .input {
+    position: relative;
+    width: 200px;
+    height: 25px;
+    font-family: 'Sniglet';
+    font-weight: bold;
+}
+
+#main-part .form .button-holder {
+    text-align:center;
+}
+
+#main-part .form .button-holder .submit {
+    display: inline-block;
+    position: relative;
+    padding: 4px;
+    width: 100px;
+    height: 40px;
+    font-size: 16pt;
+    font-family: 'Concert One';
+    font-weight:bold;
+    color: #2C3FFF;
+    background-color: #e22928;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+#main-part .form .button-holder .submit:hover {
+    box-shadow: 0 12px 16px 0 rgba(221, 72, 20,0.48), 0 17px 30px 0 rgba(221, 72, 20,0.19);
+}
+
+#main-part .form .button-holder .results {
+	position: relative;
+	padding: 0px;
+	font-family: 'Indie Flower';
+	font-weight: bold;
+	font-size: 14pt;
+}
