@@ -8,7 +8,7 @@
 }
 
 html, body {
-    background-color: #f5f6fa; 
+    background-color: #f6f6f6; 
     margin: 5px 50px; 
 }
 
@@ -106,7 +106,7 @@ html, body {
     font-family: 'Concert One';
     font-weight:bold;
     color: #2C3FFF;
-    background-color: #f5f6fa;
+    background-color: ##d9d9d9;
     border-radius: 5px;
     transition-duration: 0.4s;
 }
