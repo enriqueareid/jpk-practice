@@ -30,7 +30,7 @@ html, body {
     width: 900px;
     height: 300px;
     border-radius: 30px;
-    border: 10px solid #ffffff;
+    border: 20px solid #ffffff;
 }
 
 /* Style the Form */
@@ -106,7 +106,7 @@ html, body {
     font-family: 'Concert One';
     font-weight:bold;
     color: #2C3FFF;
-    background-color: #e22928;
+    background-color: #f5f6fa;
     border-radius: 5px;
     transition-duration: 0.4s;
 }
