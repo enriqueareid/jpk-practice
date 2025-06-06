@@ -54,11 +54,11 @@ html, body {
 }
 
 #main-part .form .mini-title {
-	display: inline-block;
-	margin-bottom: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
     text-align: center;
     font-size: 18pt;
-	font-weight: bold;
+    font-weight: bold;
     font-family:"Sniglet";
     color: ;
 }
@@ -116,9 +116,9 @@ html, body {
 }
 
 #main-part .form .button-holder .results {
-	position: relative;
-	padding: 0px;
-	font-family: 'Indie Flower';
-	font-weight: bold;
-	font-size: 14pt;
+    position: relative;
+    padding: 0px;
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    font-size: 14pt;
 }
