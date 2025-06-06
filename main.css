@@ -29,6 +29,8 @@ html, body {
 #header img {
     width: 900px;
     height: 300px;
+    border-radius: 30px;
+    border: 10px solid #ffffff;
 }
 
 /* Style the Form */
